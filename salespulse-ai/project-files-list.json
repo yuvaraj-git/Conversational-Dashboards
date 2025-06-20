@@ -1,0 +1,43 @@
+{
+  "projectName": "SalesPulse AI",
+  "description": "Conversational AI-powered business performance dashboard",
+  "totalFiles": 23,
+  "structure": {
+    "root": ["package.json", "README.md", ".env.example", "SUBMISSION_GUIDE.md"],
+    "app": ["page.tsx", "upload/page.tsx", "admin/page.tsx", "test-charts/page.tsx"],
+    "api": [
+      "dashboard/insights/route.ts",
+      "csv/upload/route.ts",
+      "test-ai-config/route.ts",
+      "clear-data/route.ts",
+      "metrics/route.ts",
+      "metrics/historical/route.ts",
+      "alerts/route.ts"
+    ],
+    "components": [
+      "data-dashboard.tsx",
+      "csv-upload.tsx",
+      "ai-provider-setup.tsx",
+      "metrics-manager.tsx",
+      "chart-debug.tsx"
+    ],
+    "lib": ["ai-providers.ts", "csv-service.ts", "metrics-service.ts", "alert-service.ts"],
+    "scripts": ["create-tables.sql", "create-csv-tables.sql"]
+  },
+  "keyFeatures": [
+    "Multi-AI Provider Support (5 providers)",
+    "Conversational Business Intelligence",
+    "CSV Data Upload & Analysis",
+    "Interactive Performance Visualizations",
+    "Real-time Business Insights",
+    "Admin Panel for Metrics Management",
+    "Responsive Design with Tailwind CSS"
+  ],
+  "techStack": {
+    "frontend": "Next.js 14, TypeScript, Tailwind CSS, shadcn/ui",
+    "backend": "Next.js API Routes, Supabase",
+    "ai": "AI SDK with OpenAI, xAI, Anthropic, Groq, DeepSeek",
+    "charts": "Recharts",
+    "database": "PostgreSQL (Supabase)"
+  }
+}
