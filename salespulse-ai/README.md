@@ -164,3 +164,9 @@ Deploy to your preferred platform and users can configure their own AI providers
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
+
+
+
+## live link to explore
+
+https://v0-sales-pulse-ai-dashboard.vercel.app/
